@@ -1,0 +1,22 @@
+# Bug Tracker
+
+Bug Tracker is a web application that allows you to track bugs and issues for your projects. It provides a user-friendly interface to add bugs, view bug details, and track their progress.
+
+## Features
+
+- Add bugs: Easily submit new bugs with titles and descriptions.
+- View bug list: See a list of all bugs with their titles and descriptions.
+- Add commits: Associate commits with bugs to track progress and updates.
+- Fetch bug data: Communicate with the GitHub API to fetch bug data and display it in the bug tracker.
+- Single-page application: The entire bug tracker runs on a single HTML page for simplicity.
+
+## Technologies Used
+
+- HTML: Used for the structure and layout of the bug tracker.
+- CSS: Used for styling and visual presentation.
+- JavaScript: Provides interactivity and functionality.
+- GitHub API: Used to fetch bug data and interact with GitHub repositories.
+- JSON: Used as the communication format between the bug tracker and the API.
+
+
+
