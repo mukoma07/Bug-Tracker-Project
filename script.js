@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Fetch bugs from the GitHub API
     function fetchBugs() {
-      const owner = 'your-github-username';
-      const repo = 'your-github-repo';
+      const owner = 'ymukoma07';
+      const repo = 'bug tracker project';
   
       fetch(`https://api.github.com/repos/${owner}/${repo}/issues`)
         .then(response => response.json())
