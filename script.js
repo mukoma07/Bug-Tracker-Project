@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer YOUR_PERSONAL_ACCESS_TOKEN'
+          'Authorization': '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'
         },
         body: JSON.stringify(bug)
       })
@@ -63,8 +63,8 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Fetch commits for a bug from the GitHub API
     function fetchCommits(bugId) {
-      const owner = 'your-github-username';
-      const repo = 'your-github-repo';
+      const owner = 'mukoma07';
+      const repo = 'bug tracker project';
   
       fetch(`https://api.github.com/repos/${owner}/${repo}/issues/${bugId}/comments`)
         .then(response => response.json())
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer YOUR_PERSONAL_ACCESS_TOKEN'
+          'Authorization': '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'
         },
         body: JSON.stringify(comment)
       })
